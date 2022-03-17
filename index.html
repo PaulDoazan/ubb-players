@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script>
+        function init() {
+            var evt = new CustomEvent("canvasLoaded");
+            window.dispatchEvent(evt);
+        }
+    </script>
+</head>
+
+<body onload="init();">
+    <div class="canvas-container">
+        <canvas id="canvas" class="canvas" width="600" height="600"></canvas>
+    </div>
+</body>
+
+</html>

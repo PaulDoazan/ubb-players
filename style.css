@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+}    
+
+.canvas-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.canvas {
+    border: rgba(0, 0, 0, 0.2) 3px solid;
+}
